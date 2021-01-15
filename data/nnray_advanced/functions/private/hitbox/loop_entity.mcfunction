@@ -25,6 +25,14 @@ execute store result score @s nnray_hitbox_z0 run data get entity @s Pos[2] 100
 
 
 
+# save UUID as score
+execute store result score @s nnray_hitbox run data get entity @s UUID[0]
+execute store result score @s nnray_hitbox_1 run data get entity @s UUID[1]
+execute store result score @s nnray_hitbox_2 run data get entity @s UUID[2]
+execute store result score @s nnray_hitbox_3 run data get entity @s UUID[3]
+
+
+
 # teleport hitbox armor_stand to "old" position
 summon armor_stand ~ ~10 ~ {Tags:[nnray_hitbox_tmp,nnray_target,summon],NoGravity:1b,Invulnerable:1b,Invisible:1b}
 execute store result score @e[type=armor_stand,tag=nnray_hitbox_tmp,tag=summon,limit=1] nnray_hitbox run data get entity @s UUID[0]

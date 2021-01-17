@@ -24,6 +24,8 @@
     
   -> entities hit by this ray are now marked with tag "nnray_hit"
   
+  -> the entity running the function is tagged with "nnray_source"
+  
   -> tag "nnray_head" indicates that the entity's head was hit
     (only makes sense for player-like shaped entities)
     
@@ -48,6 +50,8 @@
     ("execute as [...] run function nnray_advanced:cast_ray")
     
   -> entities hit by this ray are now marked with tag "nnray_hit"
+  
+  -> the entity running the function is tagged with "nnray_source"
   
   -> tag "nnray_head" indicates that the entity's head was hit
     (only makes sense for player-like shaped entities)

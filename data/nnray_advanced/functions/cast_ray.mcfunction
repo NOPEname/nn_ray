@@ -1,5 +1,11 @@
 ##by NOPEname
 
+# nntag datapack check
+execute store success score __tmp nnray_distance run function nntag:is_installed
+execute if score __tmp nnray_distance matches 0 run tellraw @a {"text":"[nnray_advanced]: Error - missing datapack 'nn_block_tag'!","color":"red"}
+
+
+
 # scoreboard
 scoreboard players set __range nnray_distance 1500
 scoreboard players set __distance nnray_distance 0

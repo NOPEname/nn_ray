@@ -1,6 +1,7 @@
 # Ray Casting Datapack by NOPEname
 
 -Free to use for your own projects!
+
 -Modify it in whatever way you want!
 
 
@@ -13,7 +14,7 @@
 
 -Disadvantage: might be inaccurate, when dealing with moving entities
 
--How to use:
+### -How to use:
 
   -> add tag "nnray_target" to all entities you want to be potential targets
   
@@ -38,7 +39,7 @@
 -Disadvantage: bigger performance impact
   (mostly by "nnray_advanced:prepare_tick")
   
--How to use:
+### -How to use:
 
   -> add tag "nnray_hitbox" to all entities you want to be potential targets
   

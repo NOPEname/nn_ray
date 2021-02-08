@@ -35,7 +35,7 @@ execute as @e[type=armor_stand,tag=nnray_hitbox_select] unless score @s nnray_hi
 
 # shoot
 tag @s add nnray_source
-execute at @s positioned ~ ~11.62 ~ run function nnray_advanced:private/loop
+execute at @s positioned ~ ~1.62 ~ run function nnray_advanced:private/loop
 
 
 

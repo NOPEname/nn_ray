@@ -15,3 +15,6 @@ tag @e[tag=nnray_hitbox_select] add nnray_hit
 execute as @s[tag=nnray_head] run tag @e[tag=nnray_hitbox_select] add nnray_head
 tag @s remove nnray_hit
 tag @s remove nnray_head
+
+
+scoreboard players operation @e[tag=nnray_hitbox_select] nnray_distance = @s nnray_distance
